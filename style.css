@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(6, 6, 6);
+}
+
+#nav {
+    background-image: url(./assets/magic-cliffs1.png);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    margin-bottom: 0%;
+}
+
+#nav ul {
+    list-style: none;
+    position: fixed;
+    background-color: rgb(128, 255, 255);
+    width: 100%;
+    border-bottom: solid 1px rgb(6, 6, 6);
+}
+
+#nav li {
+    float: left;
+    text-align: center;
+    width: 33.33%;
+}
+
+
+.a {
+    text-align: center;
+    padding: .5rem 2rem;
+    text-decoration: none;
+    color: #010029;
+    font-size: x-large;
+
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+
+.a:hover, .a:focus, .a:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    text-decoration: none;
+    color: #010029;
+
+}
+
+
+
+
+
+#name_home {
+    background-image: url(./assets/memphis-tennessee-skyline.jpg);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 6.5rem;
+    font-weight: 500;
+
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+body, html {
+    height: 100%;
+}
+
+#Name {
+    padding-top: 10rem;
+    width: 80%;
+    margin: auto;
+}
+
+
+
+
+
+/*about me page start here*/
+
+
+#about_me_greater {
+    width: 100%;
+    padding-top: 10rem;
+    margin-bottom: 4rem;
+    margin-left: 0%;
+    margin-right: 0%;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(128, 255, 255);
+
+    background-image: url(./assets/1.jpg);
+    background-position: center;
+    background-position-y: top;
+    background-repeat: no-repeat;
+}
+
+#about_me {
+    padding: 2rem;
+}
+
+#about_me h1 {
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+#about_me ul {
+    list-style: none;
+    font-size: 2.4rem;
+    padding-top: 2.5rem;
+}
+
+#about_me li {
+    margin: 10px;
+    padding-top: 1rem;
+    text-align: justify;
+    
+}
+
+
+
+
+
+
+/*project page starts here*/
+
+
+
+
+.github_img_link img{
+    height: 125px;
+
+}
+
+.github_img_link {
+    width: 10%;
+}
+
+.description {
+    width: 90%;
+    border: solid #ffffff 3px;
+}
+
+.space {
+    height: 50px;
+}
+
+
+
+
+
+#projects_greater {
+    width: 95%;
+    height: 100%;
+    padding-top: 7rem;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.table{
+    height: 5rem;
+    font-size: xx-large;
+
+}
+
+
+
+
+
+#github_greater {
+    color: white;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: larger;
+}
+
+
+
+#contact_greater {
+    color: white;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: larger;
+}
+
+
+
+#footer{
+    font-size: larger;
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+}
+
+
+
+#project_and_contact {
+    background-image: url(./assets/blue-technology-3840x2160.jpg);
+
+}
+
+
+#github_page {
+    text-decoration: none;
+    
+}
